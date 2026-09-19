@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Warranty Wallet icon</title>
+  <desc id="desc">A white shield with a blue check mark on a Warranty Wallet blue background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="40" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5476EB"/>
+      <stop offset="1" stop-color="#3456D1"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#172B78" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="420" cy="84" r="156" fill="#FFFFFF" opacity=".055"/>
+  <circle cx="64" cy="456" r="132" fill="#172B78" opacity=".12"/>
+  <g filter="url(#shadow)">
+    <path fill="#FFFFFF" d="M256 102c0 0-126 35-126 35v106c0 84 39 155 126 195 87-40 126-111 126-195V137l-126-35Z"/>
+    <path fill="#3456D1" d="m203 246 34 34 78-86 25 24-103 114-59-59 25-27Z"/>
+  </g>
+</svg>

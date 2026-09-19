@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500" role="img" aria-labelledby="title desc">
+  <title id="title">Warranty Wallet feature graphic</title>
+  <desc id="desc">Warranty Wallet keeps product warranties and expiry dates organized.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1024" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5476EB"/>
+      <stop offset="1" stop-color="#203A9B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#13276F" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="500" fill="url(#background)"/>
+  <circle cx="905" cy="28" r="220" fill="#FFFFFF" opacity=".07"/>
+  <circle cx="40" cy="500" r="190" fill="#13276F" opacity=".13"/>
+  <path d="M0 404C180 332 298 450 458 392c142-51 212-36 340 34 88 48 157 55 226 36v38H0Z" fill="#172B78" opacity=".13"/>
+
+  <g transform="translate(78 72)">
+    <rect width="66" height="66" rx="20" fill="#FFFFFF" opacity=".98"/>
+    <path fill="#3456D1" d="M33 12c0 0-23 6-23 6v19c0 15 7 28 23 35 16-7 23-20 23-35V18l-23-6Z"/>
+    <path fill="#FFFFFF" d="m24 34 6 6 13-15 5 5-18 20-11-11 5-5Z"/>
+  </g>
+
+  <text x="78" y="222" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Warranty Wallet</text>
+  <text x="82" y="270" fill="#E6EBFF" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Everything you own, covered.</text>
+  <rect x="82" y="315" width="132" height="6" rx="3" fill="#FFFFFF" opacity=".8"/>
+  <text x="82" y="366" fill="#E6EBFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="1.2">WARRANTIES · DATES · PEACE OF MIND</text>
+
+  <g filter="url(#shadow)" transform="rotate(-5 764 160)">
+    <rect x="610" y="86" width="300" height="168" rx="24" fill="url(#card)"/>
+    <circle cx="650" cy="128" r="23" fill="#E8EDFF"/>
+    <path fill="#3456D1" d="M650 113c0 0-11 3-11 3v9c0 8 4 13 11 17 7-4 11-9 11-17v-9l-11-3Z"/>
+    <text x="691" y="124" fill="#667085" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">ACTIVE WARRANTY</text>
+    <text x="640" y="177" fill="#17213D" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">MacBook Air</text>
+    <text x="640" y="209" fill="#667085" font-family="Arial, Helvetica, sans-serif" font-size="15">Apple  ·  Expires Jun 2, 2027</text>
+  </g>
+
+  <g filter="url(#shadow)" transform="rotate(6 760 350)">
+    <rect x="590" y="284" width="310" height="142" rx="24" fill="#FFFFFF"/>
+    <rect x="624" y="320" width="54" height="54" rx="16" fill="#FFF0E3"/>
+    <path fill="#D96C08" d="M637 333h28v8h-28zm0 13h28v8h-28zm0 13h18v8h-18z"/>
+    <text x="702" y="340" fill="#667085" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">EXPIRING SOON</text>
+    <text x="702" y="370" fill="#17213D" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Espresso Machine</text>
+    <text x="702" y="397" fill="#D96C08" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">5 days left</text>
+  </g>
+</svg>
